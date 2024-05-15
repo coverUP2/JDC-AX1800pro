@@ -16,7 +16,7 @@ on:
     inputs:
       TEMP:
         description: 'Show soc status and wifi temperature on luci'
-        required: true
+        required: false
         default: true
         type: boolean
       NO_DOCKERMAN:
