@@ -21,7 +21,7 @@ on:
         type: boolean
       NO_DOCKERMAN:
         description: 'Not build luci-app-dockerman'
-        required: true
+        required: false
         default: false
         type: boolean
       ssh:
